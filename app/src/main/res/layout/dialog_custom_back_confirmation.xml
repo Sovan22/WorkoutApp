@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure ?"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This will stop your workout. You have come this far, are you sure you want to quit?"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="YES"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/yesButton"
+            android:backgroundTint="@color/green"
+            android:background="@drawable/button_custom_dialog"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:id="@+id/noButton"
+            android:backgroundTint="@color/green"
+            android:background="@drawable/button_custom_dialog"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
